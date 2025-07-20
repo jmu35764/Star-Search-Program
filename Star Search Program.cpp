@@ -14,7 +14,7 @@ double getScore(double &score)
         cout << "Invalid score. Value must be no lower and 0 and no higher than 10 \n";
         cin >> score;
     }
-	//cout << score;
+	
 	return score;
 }
 
@@ -35,8 +35,6 @@ double calcAverage(double max, double min, double tot)
 
 int main()
 {
-	//double score1; 
-	//score2, score3, score4, score5;
 	double minScore, maxScore, total;
 	double score[5];
 	double average;
@@ -45,7 +43,6 @@ int main()
     minScore = score[0];
     maxScore = score[0];
 	total = score[0];
-	//cout << score[0];
 
 	for (int x = 1; x <=4 ; x++)
 	{
